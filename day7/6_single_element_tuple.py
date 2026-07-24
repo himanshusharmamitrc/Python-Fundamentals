@@ -1,10 +1,9 @@
-# Single Element Tuple
+#Sigle 
 
 a = (10,)
 
 print(a)
 print(type(a))
-
 
 b = (10)
 

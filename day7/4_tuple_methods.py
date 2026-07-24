@@ -2,36 +2,51 @@
 
 numbers = (10, 20, 30, 10, 40, 10, 50)
 
-print()
+print("Original Tuple:", numbers)
 
 # count()
+print("\ncount()")
 print(numbers.count(10))
 print(numbers.count(20))
 print(numbers.count(100))
 
 # index()
+print("\nindex()")
 print(numbers.index(10))
 print(numbers.index(30))
+print(numbers.index(40))
 print(numbers.index(50))
 
-print()
+# len()
+print("\nlen()")
+print(len(numbers))
 
-# Packing
+# max()
+print("\nmax()")
+print(max(numbers))
 
-student = ("Himanshu", 20, "AI-ML")
+# min()
+print("\nmin()")
+print(min(numbers))
 
-print(student)
+# sum()
+print("\nsum()")
+print(sum(numbers))
 
-print()
+# sorted()
+print("\nsorted()")
+print(sorted(numbers))
+print(sorted(numbers, reverse=True))
 
-# Unpacking
+# tuple()
+print("\ntuple()")
+list1 = [1, 2, 3, 4, 5]
+print(tuple(list1))
 
-student = ("Himanshu", 20, "AI-ML")
+# any()
+print("\nany()")
+print(any(numbers))
 
-name, age, branch = student
-
-print(name)
-print(age)
-print(branch)
-
-numbers = 
+# all()
+print("\nall()")
+print(all(numbers))
